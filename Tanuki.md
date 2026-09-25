@@ -14,6 +14,7 @@
 ```
 
 * Hint : **XXE.**
+Lab variant: tanuki-002
 
   * Import Deck `/api/decks/import`
   * Create flag.xml file and upload
