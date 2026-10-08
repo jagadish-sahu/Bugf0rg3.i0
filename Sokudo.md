@@ -1,4 +1,4 @@
-* Hint : **GraphQL**
+* Hint : **GraphQL** - Lab variant: sokudo-005
 
   * /api/grpphql
   * Content-Type: application/json
