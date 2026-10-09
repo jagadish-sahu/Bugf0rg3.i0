@@ -1,4 +1,4 @@
-* Hint : **Can you update another users profile?**
+* Hint : **Can you update another users profile?** - Lab variant: tanuki-006
 
   * Update profile password
   * `/api/profile/admin` 
