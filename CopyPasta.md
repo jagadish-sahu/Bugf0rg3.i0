@@ -9,4 +9,10 @@
   * IDOR `/api/collections/2` admin and copy slug
   * Now share the created collection and paste the slug in link `/api/collections/share/xxslugxx`
 
-*
+
+* Hint : **Check your filters.**  Lab variant: copypasta-011
+
+  * Create a test collection 
+  * In private collection `/api/collections?filter%5Bvisibility%5D=private`
+  * Change this to `/api/collections?filter[user_id][$ne]=private`
+
